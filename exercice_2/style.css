@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+button {
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.buttons {
+  display: grid;
+  margin: 20px;
+}
+
+.buttons button {
+  grid-area: 1 / 1;
+  margin: 0;
+}
+
+#start {
+  background-color: lightgreen;
+}
+
+#pause {
+  background-color: lightcoral;
+}
+
+#reprendre {
+  background-color: lightyellow;
+}
+
+.hidden {
+  display: none;
+}
